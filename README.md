@@ -15,3 +15,8 @@
   ```
     <main>, <header>, <footer>, <nav>, <section>, <article>
   ```
+
+# CSS
+```
+  commit 메세지가 비어 있어 커밋 작업이 취소되었습니다.
+```
