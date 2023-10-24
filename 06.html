@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 복습</title>
+    <style>
+        main, section, ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        main {
+            width: 60vw;
+            height: 60vh;
+            margin-left: 20vw;
+            background-color: blue;
+        }
+        section {
+            background-color: aliceblue;
+            width: 80%;
+            height: 80%;
+        }
+        ul {
+            width: 80%;
+            height: 80%;
+            background-color: beige;
+            border: 1px dotted gray;
+        }
+        li {
+            border: 2px solid blueviolet;
+            width: 80%;
+            padding: 20px;
+            margin: 20px;
+        }
+        span {
+            background-color: green;
+            color: white;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            padding: 5px;
+            width: 30%;
+            height: 40px;
+            font-size: rem;
+        }
+
+        @media only screen and (max-width:1024px){
+            main {
+                width: 100vw;
+                margin-left: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <ul>
+                <li><span>박스1</span><span>입니다.</span></li>
+                <li><span style="background-color:aliceblue; color: black;">박스2</span></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,34 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+main {
+    padding: 20px;
+    background-color: whitesmoke;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+ol, ul {
+    background-color: gainsboro;
+    list-style-type: none;
+    margin: 10px;
+}
+
+a {
+    background-color: bisque;
+    display: inline-flex;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px dotted bisque;
+}
+
+a:hover {
+    border-color: gray;
+}
