@@ -1,0 +1,16 @@
+#divBtn {
+    display: flex;
+    align-items: center;
+}
+
+#msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    height: 80px;
+}
