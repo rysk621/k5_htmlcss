@@ -9,21 +9,10 @@ section {
     margin-bottom: 10px;
 }
 
-.btC {
+header, main {
     display: flex;
-    justify-content: center;
     align-items: center;
-}
 
-.cmsg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    width: 50%;
-    height: 80px;
+    width: 80vw;
+    margin-left: 10vw;
 }
-

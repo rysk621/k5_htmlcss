@@ -1,24 +1,15 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" text="text/css" href="./styles/container.css">
     <link rel="stylesheet" text="text/css" href="./styles/07.css">
     <title>자바스크립트</title>
-    <script>
-        // function hello(n){
-        //     alert("Hello! Button"+n);
-        // }
-        // 자바스크립트에서 변수선언 안해도 실행되지만 할 것. const or let 두가지만 있음. (let은 바꿀 수 있다.) 변수에 함수를 할당할 수도 있다(same as python)
-        // 익명 함수 hello: const hello = () => {};
-        const hello = (n) => {
-        //  alert("Hello! Button"+n)
-            document.getElementById('msg').innerHTML = "<h2>Hello! Button" + n + "</h2>";
-        //  document.querySelector('.cmsg').innerHTML = "mm";
-        }
-    </script>
+    <script src="./script/07.js"></script>
 </head>
+
 <body>
     <header>
         <h1>자바스크립트</h1>
@@ -29,16 +20,26 @@
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <h2>자바스크립트01</h2>
-        <div id="divBtn">
-            <button onclick="hello(1)">눌러주세요 Button1</button>
-            <button onclick="hello(2)">눌러주세요 Button2</button>
-        </div>
-        <div id="msg" class="cmsg">
 
-        </div>
+    <main>
+        <section>
+            <h2>자바스크립트01</h2>
+            <div id="divBtn" class="btC">
+                <button onclick="hello(1)">눌러주세요 Button1</button>
+                <button onclick="hello(2)">눌러주세요 Button2</button>
+            </div>
+            <div id="msg1" class="cmsg">
+            </div>
+        </section>
+        <section>
+            <h1>자바스크립트02</h1>
+            <div id="divbtn2" class="btC">
+                <!-- <button></button> -->
+            </div>
+            <div id="msg2" class="cmsg">
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
