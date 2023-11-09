@@ -17,6 +17,16 @@ const handleBtClick = (comImg, meImg, me, msg) => {
     else if (com > me) msg.innerHTML = '"패"';
     else msg.innerHTML = '"승"';
     
+    // 2. 버튼 클릭시 이벤트 처리
+    bt.addEventListener("click", () => {
+        // 3. 난수 생성 (0~5에서 1~6의 정수로 바꾸는 것까지)
+        let n = Math.floor(Math.random() * 6) + 1;
+        console.log("n", n);
+
+        // 4. 생성된 난수에 해당하는 이미지 보이기
+        img.setAttribute("src", `./images/${n}.png`)
+
+    });
 }
 
 
