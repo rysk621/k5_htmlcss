@@ -48,6 +48,17 @@ nav a {
     border-radius: 25px;
 }
 
+section {
+    width: 80%; /*main의 80%*/
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 button {
     display: flex;
     justify-content: center;
