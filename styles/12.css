@@ -13,8 +13,9 @@ form {
     text-align: center;
 }
 
-#txt2 {
-    background-color: aliceblue;
+#txt1 {
+    background-color: beige;
+    font-size: large;
 }
 
 input[type=text] {
@@ -25,10 +26,20 @@ input[type=text] {
 }
 
 .div2 {
-    width: 25%;
+    width: 15%;
     padding: 10px;
 }
 
-.bt11 {
+.bt11, .bt12, .bt13 {
     width: 100%;
+    background-color: blue;
+}
+
+#d1 {
+    width: 100%;
+}
+
+.bt12 {
+    background-color: skyblue;
+    color: gray;
 }
