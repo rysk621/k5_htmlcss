@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
 
         console.log(result)
         if (result == txt1.value) txt2.value = '회문입니다.';
-        else txt2.value = '회문이 아닙니다';
+        else txt2.value = '회문이 아닙니다.';
 
         if (result == '') txt2.value = '단어를 입력하세요.';
     });

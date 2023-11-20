@@ -32,14 +32,11 @@ input[type=text] {
 
 .bt11, .bt12, .bt13 {
     width: 100%;
-    background-color: blue;
+    background-color: skyblue;
+    color: black;
+    
 }
 
 #d1 {
     width: 100%;
-}
-
-.bt12 {
-    background-color: skyblue;
-    color: gray;
 }
