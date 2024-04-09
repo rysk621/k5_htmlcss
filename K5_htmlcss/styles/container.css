@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 15vh;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    justify-content: space-between;
+}
+
+header, main {
+    display: flex;
+    align-items: center;
+
+    width: 80vw;
+    margin-left: 10vw;
+}
+
+main {
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    margin: 0px 10px;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(158, 210, 255);
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+section {
+    width: 80%; /*main의 80%*/
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 5px;
+    background-color: darkblue;
+    color: aliceblue;
+    border: 0px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: midnightblue;
+    cursor: pointer;
+}

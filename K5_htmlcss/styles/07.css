@@ -1,0 +1,29 @@
+section {
+    width: 80%; /*main의 80%*/
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.btC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cmsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 50%;
+    height: 80px;
+}
+

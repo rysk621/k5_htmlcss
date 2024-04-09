@@ -1,0 +1,18 @@
+section {
+    width: 80%; /*main의 80%*/
+    padding: 20px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+header, main {
+    display: flex;
+    align-items: center;
+
+    width: 80vw;
+    margin-left: 10vw;
+}

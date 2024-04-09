@@ -1,0 +1,42 @@
+form {
+    width: 100%;
+}
+
+.fdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    width: 50%;
+    text-align: center;
+}
+
+#txt1 {
+    background-color: beige;
+    font-size: large;
+}
+
+input[type=text] {
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+}
+
+.div2 {
+    width: 15%;
+    padding: 10px;
+}
+
+.bt11, .bt12, .bt13 {
+    width: 100%;
+    background-color: skyblue;
+    color: black;
+    
+}
+
+#d1 {
+    width: 100%;
+}
